@@ -572,4 +572,4 @@ def generate_rand_message():
     return retmessage
 
 msg = generate_rand_message()
-exit(msg + " ")
+print(msg + " ")
