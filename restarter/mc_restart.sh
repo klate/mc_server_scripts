@@ -1,7 +1,7 @@
 # replace "mc" with the screen of the mc name
 # if needed, adjust the path to the cahbot.py
 screen -S mc -X stuff "say server restarts in 5 minutes \n"
-#sleep 240
+sleep 240
 screen -S mc -X stuff "say server restarts in 1 minute \n"
 sleep 30
 screen -S mc -X stuff "say server restarts in 30 seconds \n"
@@ -26,6 +26,6 @@ screen -S mc -X stuff "say 2 \n"
 sleep 1
 screen -S mc -X stuff "say 1 \n"
 sleep 1
-screen -S mc -X stuff "stop \n"
+screen -S mc -X stuff "stop\n"
 sleep 30
-screen -S mc -X stuff "./start.sh \n"
+screen -S mc -X stuff "./start.sh\n"
